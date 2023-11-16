@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Lobster', sans-serif;
+    color: maroon;
+}
+
+.post {
+    width: 40%;
+    margin: auto;
+    background-color: #eedaf5;
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: rgb(72, 72, 238);
+}
+
+a {
+    margin-left: 380px;
+    background-color: rgb(207, 207, 207);
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+}

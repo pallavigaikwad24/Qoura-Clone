@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Montserrat:wght@300;400;500;600;700&family=Poppins&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/edit.css">
+    <title>Edit Post</title>
+</head>
+
+<body>
+    <h2>Edit your Post</h2>
+    <div class="card">
+        <p>Post username:
+            <%= post.username %>
+        </p>
+        <form method="post" action="/posts/<%= post.id %>?_method=PATCH">
+            <textarea name="content" placeholder="Write your content" rows="10" cols="35"><%= post.content %></textarea><br>
+            <button>Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin-left: 170px;
+    margin-right: 200px;
+}
+
+.post {
+    background-color: blanchedalmond;
+    margin: 30px 0 30px 0;
+    padding: 10px;
+}
+
+h4 {
+    line-height: 25px;
+}
+
+.user {
+    font-style: italic;
+}
+
+button {
+    padding: 5px;
+    background-color: rgb(197, 193, 193);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 10px 5px 5px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    color: maroon;
+    margin-left: 120px;
+    margin-right: 40px;
+}
+
+.list {
+    display: flex;
+    font-size: 25px;
+    color: gray;
+    list-style: none;
+    margin-right: 150px;
+}
+
+i {
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 5px;
+    padding: 6px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid grey;
+}
+
+.list a {
+    border: 1px solid grey;
+    font-size: 0.9rem;
+    margin-left: 20px;
+    border-radius: 30px;
+    padding: 6px;
+    text-decoration: none;
+    color: grey;
+}
+
+i:hover {
+    color: rgba(216, 19, 19, 0.603);
+}
+
+.see {
+    color: grey;
+}
+
+.newPost {
+    padding: 10px;
+    background-color: rgb(189, 186, 186);
+    text-decoration: none;
+    color: rgb(63, 3, 3);
+    font-weight: 900;
+    border-radius: 30px;
+}
+
+.edit {
+    color: blue;
+}
+
+footer {
+    background-color: rgb(56, 55, 55);
+    margin-top: 50px;
+    width: 100%;
+    height: 5rem
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
